@@ -1,0 +1,18 @@
+{
+  "language": "ru",
+  "threads": {
+    "handle": "latypov.emil"
+  },
+  "linkedin": {
+    "profileUrl": "https://www.linkedin.com/in/rrotatew"
+  },
+  "youtube": {
+    "videos": [
+      "https://youtu.be/vvBxfQ7BXRM",
+      "https://www.youtube.com/live/qBmEpLxz_HE"
+    ]
+  },
+  "limits": {
+    "threadsPages": 5
+  }
+}

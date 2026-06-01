@@ -1,0 +1,6 @@
+.env
+node_modules/
+# Сырой корпус регенерируется из API — в репо не держим
+corpus/*.json
+corpus/corpus.md
+.DS_Store
