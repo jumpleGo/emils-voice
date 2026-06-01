@@ -7,12 +7,14 @@
     "profileUrl": "https://www.linkedin.com/in/rrotatew"
   },
   "youtube": {
+    "channelHandle": "money_flow_zen",
     "videos": [
       "https://youtu.be/vvBxfQ7BXRM",
       "https://www.youtube.com/live/qBmEpLxz_HE"
     ]
   },
   "limits": {
-    "threadsPages": 5
+    "threadsPages": 5,
+    "youtubeVideos": 60
   }
 }

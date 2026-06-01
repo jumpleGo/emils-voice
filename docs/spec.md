@@ -8,12 +8,14 @@
 ## Подход
 Дистиллированный профиль + эталоны (вариант A). Корпус собирается один раз через ScrapeCreators API → анализ выжимает `voice-profile.md` + `examples/`. В рантайме грузятся только эти файлы, без вызовов API.
 
-## Источники
-- Threads: `latypov.emil` — `/v1/threads/user/posts`
-- LinkedIn: `rrotatew` (`https://www.linkedin.com/in/rrotatew`) — `/v1/linkedin/profile`
-- YouTube: 2 стрима — `/v1/youtube/video/transcript`
+## Источники (по факту сборки)
+- Threads: `latypov.emil` — `/v1/threads/user/posts`. **15 постов** (Threads сам отдаёт только последние ~15-30, пагинации нет).
+- LinkedIn: `rrotatew` — `/v1/linkedin/profile`. **Недоступен**: API возвращает «account is private or not publicly available». Пропускается.
+- YouTube: весь канал Money Flow Zen (`@money_flow_zen`) — `/v1/youtube/channel-videos` → `/v1/youtube/video/transcript` по каждому. **39 транскриптов**.
 - База API: `https://api.scrapecreators.com`, заголовок `x-api-key`
 - Язык голоса: только русский
+
+Итоговый корпус: 15 постов + 39 транскриптов (~720 КБ).
 
 ## Компоненты
 - `config.json` — хэндлы и лимиты
