@@ -4,3 +4,4 @@ node_modules/
 corpus/*.json
 corpus/corpus.md
 .DS_Store
+new_messages.txt
