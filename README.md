@@ -16,7 +16,7 @@ node tools/collect.mjs --probe        # проверка
 node tools/collect.mjs                # сбор корпуса → corpus/corpus.md
 ```
 
-Дальше Claude строит `voice-profile.md` из корпуса (см. `SKILL.md`).
+Дальше Claude строит `voice-profile.md` из корпуса. Полный порядок сборки и обновления — в `docs/building.md`.
 
 ## Использование
 
